@@ -1,0 +1,47 @@
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 1.5;
+  line-height: 1.5;
+}
+
+code {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.app {
+  background: #166d32;
+  padding: 50px;
+  height: 100vh;
+}
+
+.todo-list{
+  background: #f6f214;
+  border-radius: 40px;
+  padding: 15px;
+  max-width: 500px;
+}
+
+.todo{
+  background: #cbc9c9;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2em;
+  font-size: 18px;
+}
